@@ -20,4 +20,13 @@ public class Animal {
     public Classification getClassification() {
         return classification;
     }
+
+    @Override
+    public String toString() {
+        return "Animal{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", classification=" + classification +
+                '}';
+    }
 }
